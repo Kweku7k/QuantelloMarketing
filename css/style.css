@@ -4,6 +4,14 @@
     margin-right: 0;
 }
 
+.section-head{
+    font-family: 'Poppins', sans-serif;
+    font-size: 50px;
+    text-align: center;
+    padding: 30px 0 0 30px;
+    margin-bottom: 20px;
+}
+
 .btn{
     width: auto;
     padding: 2px 10px;
@@ -15,8 +23,35 @@
     width: auto;
 }
 
+#card-active{
+background-color:white;
+border-radius: 20px;
+margin-top: 10px;
+box-shadow: 0px 0px 19px -3px rgba(0,0,0,0.75);
+/* background-color: ; */
+;
+}
+
+.cardHead{
+    /* padding-top: 30px */
+    font-family: 'Poppins', sans-serif;
+    /* font-weight: bold;÷÷ */
+    padding-bottom: 4px;
+    font-size: 15px;
+    text-align: center;
+    color: black;
+    padding-top: 5px;
+}
+
+.cardBody{
+padding-bottom: 30px;
+color: rgba(0, 0, 0, 0.589);
+font-weight: lighter;
+
+}
+
 .hero{
-    background-image: url(/img/moonworkers_work_focus_illustration_tubik_2x.png);
+    background-image: url(/img/marquise-kamanke-xP_ujG8HZP8-unsplash.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     font-family: 'Poppins', sans-serif;
@@ -30,11 +65,14 @@
     text-align: center;
     margin: auto;
     font-weight: bold;
+    color: white;
 
 }
 
 .support{
     text-align: center;
+    color: white;
+
 
 }
 
